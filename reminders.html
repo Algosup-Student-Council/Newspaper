@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Algosup Newspaper</title>
-    <meta name="description" content="Free Bootstrap Theme by uicookies.com">
-    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
-    
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Rubik:300,400,500" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles-merged.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/custom.css">
 
-    <!--[if lt IE 9]>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Algosup Newspaper</title>
+  <meta name="description" content="Free Bootstrap Theme by uicookies.com">
+  <meta name="keywords"
+    content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Rubik:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles-merged.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
       <script src="js/vendor/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
+</head>
+
+<body>
 
   <!-- START: header -->
 
@@ -54,24 +57,62 @@
     </div>
   </header>
   <!-- END: header -->
-  
+
   <!-- START: section -->
-  <section class="probootstrap-intro" style="background-image: url(img/work_5.jpg);" data-stellar-background-ratio="0.5">
+  <section class="probootstrap-intro" style="background-image: url(img/work_5.jpg);"
+    data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row">
         <div class="col-md-7 probootstrap-intro-text">
           <h1 class="probootstrap-animate" data-animate-effect="fadeIn">Reminders</h1>
-          <p class="watch-intro probootstrap-animate">Thanks to Louis, we have some reminders for you..</p>
+          <p class="watch-intro probootstrap-animate">Knowing that you are new, we have some reminders for you..</p>
         </div>
       </div>
     </div>
-    <span class="probootstrap-animate"><a class="probootstrap-scroll-down js-next" href="#next-section">Scroll down <i class="icon-chevron-down"></i></a></span>
+    <span class="probootstrap-animate"><a class="probootstrap-scroll-down js-next" href="#next-section">Scroll down <i
+          class="icon-chevron-down"></i></a></span>
   </section>
   <!-- END: section -->
   <main>
     <section id="next-section" class="probootstrap-section">
       <div class="container">
         <!-- Enter code here Louis -->
+        <h4> Hi ! Here you will have some hints on how to use HTML/CSS and a little bit of javascript.<br> Let's get
+          started !</h4>
+        <small>you will see a lot of links here, remember that there is no shame not knowing but shame on you if you
+          don't search for an answer. Internet is your friend </small>
+        <p>what do you want to learn ?</p>
+        <ul>
+          <li><a href="#html">HTML</a></li>
+          <li><a href="#css">CSS</a></li>
+          <li><a href="#js">Javascript</a></li>
+        </ul>
+        <div class="restrain-explication">
+          <h5 id="html">Step one: HTML</h5>
+          <p>You may want to create text but also separated boxes or a list of products etc...<br> All of this can be
+            done with html elements which always start and end with &#60 and &#62.
+            <br> for example to create this text I am using &#60p&#62 which is the element for texts. As it would
+            take too long to explain all the possible elements, <a
+              href="https://developer.mozilla.org/fr/docs/Web/HTML/Element">here</a> is a link to a page listing all of
+            them. (sufficient for the challenge, you can move on to CSS)
+          </p>
+          <p>Now that we have that, how to create an html page from scratch??? <br> Well, it is easy (easy way at the end) :</p>
+          <ol>
+            <li>start with &#60!Doctype html&#62</li>
+            <li>create &#60head&#62 in which you declare the next things</li>
+            <li>In the head, declare &#60meta&#62 with your viewpport and the fact you use utf-8, the title element with the name of the website, and, all your links to css files (we will come back to css in the next chapter)</li>
+            <li>create body under head in which you'll put a header element and a footer element.</li>
+            <li>The header contains the menu</li>
+            <li>outside in the middle of head and footer is your website</li>
+            <li>The footer contains the credit block of your page</li>
+            <li>THE EASY WAY : at the start when there is still nothing, put ! and you will immediately have a guess from the code app, if you click tab, everything will appear (apart from your css link), just have to fill it</li>
+          </ol>
+          <h5 id="css">Step two: CSS</h5>
+          <p class="cssshow">Now you have words appearing in front of you yes ! but... aren't they just boring, pitch
+            black on white... I know ! let's add css, "cascade style sheet".
+            CSS is a mask which you give your website to hide it's horrible face, to declare a stylesheet in html
+          </p>
+        </div>
       </div>
     </section>
 
@@ -80,18 +121,20 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <p class="mb0">&copy; Copyright 2021, <a href=""> Algosup Student Council</a>. <br> Designed &amp; Developed with <i class="icon-heart" style="position: relative; top: 2px;"></i> 
+          <p class="mb0">&copy; Copyright 2021, <a href=""> Algosup Student Council</a>. <br> Designed &amp; Developed
+            with <i class="icon-heart" style="position: relative; top: 2px;"></i>
         </div>
         <div class="col-md-6">
           <p class="mb0 probootstrap-back-to-top"><a href="#" class="js-backtotop">Back to top</a></p>
         </div>
       </div>
     </div>
-  </footer>  
+  </footer>
 
   <script src="js/scripts.min.js"></script>
   <script src="js/main.min.js"></script>
   <script src="js/custom.js"></script>
 
-  </body>
+</body>
+
 </html>

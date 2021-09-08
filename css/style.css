@@ -2177,3 +2177,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
     width: 100%;
   }
 }
+
+.restrain-explication{
+  width: 60%;
+}
