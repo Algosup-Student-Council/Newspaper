@@ -2183,3 +2183,27 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 *{scroll-behavior: smooth;}
+
+.showcube {
+  width: 100%;
+  margin-top: -.5px;
+  height: 8.9px;
+  background-color: green;
+  animation: slidein 10s infinite ease-in-out;
+}
+
+.showcubeborder{
+  width: 400px;
+  height: 10px;
+  border: solid 1px black;
+}
+
+@keyframes slidein {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}

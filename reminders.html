@@ -80,7 +80,8 @@
         <h4> Hi ! Here you will have some hints on how to use HTML/CSS and a little bit of javascript.<br> Let's get
           started !</h4>
         <small>you will see a lot of links here, remember that there is no shame not knowing but shame on you if you
-          don't search for an answer. Internet is your friend </small>
+          don't search for an answer. Internet is your friend. The two best site to search for answers are <a
+          href="https://developer.mozilla.org">developer.mozilla.org</a> and  <a href="https://www.w3schools.com">w3schools</a> </small>
         <p>what do you want to learn ?</p>
         <ul>
           <li><a href="#html">HTML</a></li>
@@ -91,10 +92,10 @@
           <h5 id="html">Step one: HTML</h5>
           <p>You may want to create text but also separated boxes or a list of products etc...<br> All of this can be
             done with html elements which always start and end with &#60 and &#62.
-            <br> for example to create this text I am using &#60p&#62 which is the element for texts. As it would
+            <br> for example to create this text I am using &#60p&#62 which is the element for a paragraph. As it would
             take too long to explain all the possible elements, <a
               href="https://developer.mozilla.org/fr/docs/Web/HTML/Element">here</a> is a link to a page listing all of
-            them. (sufficient for the challenge, you can move on to CSS)
+            them.
           </p>
           <p>Now that we have that, how to create an html page from scratch??? <br> Well, it is easy (easy way at the end) :</p>
           <ol>
@@ -115,21 +116,21 @@
           <p>All the properties can be found <a href="https://www.w3schools.com/cssref/">here</a>, but there is some properties which are to be used way more than others :</p>
           <ul>
             <li>a command to do a list without decorations in a single line -> text-decoration : none;</li>
-            <li>a command to do margins but faster -> padding : 0 0 0; each 0 is a position you can move, the first one is up and down</li>
-            <li>a command to move to the extreme right -> float : right;</li>
+            <li>a command to do margins from the outside of the element (think of it as pushing the car while being outside of the car) -> margin-right/top/left/bottom : 0px/0%</li>
+            <li>a command to do margins from the inside of the element (think of it as pushing an object in the car while being in the car) -> padding-right/top/left/bottom : 0px/0%</li>
+            <li>a command to move to the end of your div  -> float : right(or left);</li>
+            <li>a command to have the element disconnect from the listed order (being in spectator in minecraft and going everywhere without having to move all the elements in front of you)  -> position : relative; (this is one of the best)</li>
+            <li>a command to choose if your element will appear or not, if it will be inline or not etc...  -> display : none/inline-block etc...;</li>
           </ul>
+          <img  src="img/ca.png">
+          <small>This is how a page is usually built, you can see the use of padding and margin</small>
+          <p>A little (way) more advanced use of css is with @keyframe, you can use it to create animations like :</p>
+          <div class="showcubeborder">
+            <div class="showcube"></div>
+          </div>
+        <p>Look it up and have fun using it ! (to do what I did, you need 2 things : keyframe and animation. inspect the code with f12 and search in css on the right for .showcube, everything is there)</p>
           <h5 id="js">Step three: Javascript</h5>
-          <p class="cssshow">Now you have words appearing in front of you yes ! but... aren't they just boring, pitch
-            black on white... I know ! let's add css, "cascade style sheet".
-            CSS is a mask which you give your website to hide it's horrible face, to declare a stylesheet in html use <br>&#60link rel="stylesheet" href="location_of_the_stylesheet"&#62
-          </p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga repudiandae non sunt id commodi. Neque, eius ullam iusto perspiciatis facilis soluta enim odio quia asperiores et, dolor hic, numquam nulla.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis amet consequatur maxime? Magni sunt blanditiis beatae eius rerum omnis officia reiciendis assumenda. Obcaecati laboriosam illo expedita, veniam officiis voluptatem quia!
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto fuga ut officia amet itaque quisquam enim eveniet nisi labore. Voluptatem illo quidem voluptates sequi iste assumenda iusto, vel aut repellat?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolorem odit asperiores eum labore sint quam veniam, sit quae quas illum ipsa maxime fugit? Nesciunt ducimus ab consequuntur nulla incidunt.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis nobis beatae officiis, eligendi unde vel magnam assumenda officia esse! Quia obcaecati, iure placeat mollitia nisi nam eum libero necessitatibus excepturi.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis neque iusto assumenda necessitatibus illum cum nisi. Vitae natus unde quam esse ea dignissimos aliquid, vero quas asperiores excepturi obcaecati ipsa?
-          </p>
+          <p class="cssshow">p  </p>
         </div>
       </div>
     </section>
